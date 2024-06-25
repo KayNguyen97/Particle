@@ -1,0 +1,6 @@
+import{b as o,c}from"./chunk-ERLETJMZ.js";import{m as r,o as a}from"./chunk-6V2G2Z5W.js";r();a();var s={seedPhrase:"",privateKey:"",unlockHardwareWalletAccounts:{},chooseNetworkList:[],mpcInfo:{}},l=o({name:"importAccount",initialState:s,reducers:{setSeedPhrase:(e,t)=>{e.seedPhrase=t.payload},setPrivateKey:(e,t)=>{e.privateKey=t.payload},setUnlockHardwareWallets:(e,t)=>{e.unlockHardwareWallets=t.payload},setMpcInfo:(e,t)=>{e.mpcInfo=t.payload},setChooseNetworkList:(e,t)=>{e.chooseNetworkList=t.payload||[]},clearSeedPhrase:e=>{e.seedPhrase=""},clearPrivateKey:e=>{e.privateKey=""},clearUnlockHardwareWallets:e=>{e.unlockHardwareWallets={}},clearMpcInfo:e=>{e.mpcInfo={}}}}),{actions:n,reducer:i}=l,u=i,h=e=>e.importAccount.seedPhrase,k=e=>e.importAccount.privateKey,w=e=>e.importAccount.unlockHardwareWallets,y=e=>e.importAccount.mpcInfo,P=e=>e.importAccount.chooseNetworkList,{setSeedPhrase:m,setPrivateKey:f,setUnlockHardwareWallets:v,setMpcInfo:H,clearSeedPhrase:I,clearPrivateKey:K,clearUnlockHardwareWallets:W,clearMpcInfo:A,setChooseNetworkList:S}=n;export{u as a,h as b,k as c,w as d,y as e,P as f,m as g,f as h,v as i,H as j,I as k,K as l,W as m,A as n,S as o};
+
+window.inOKXExtension = true;
+window.ASSETS_BUILD_TYPE = "publish";
+
+//# sourceMappingURL=chunk-MFPHQZ6G.js.map

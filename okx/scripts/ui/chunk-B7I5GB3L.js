@@ -1,0 +1,6 @@
+import{c as B}from"./chunk-ZXEHJOAD.js";import{i as h,m as x}from"./chunk-2HWABU7H.js";import{h as g}from"./chunk-62JDSRZZ.js";import{d as p}from"./chunk-VPBQLZCI.js";import{v as y}from"./chunk-X2LENRE7.js";import{d as T}from"./chunk-RMQJRDTF.js";import{D as N,Pa as R,_ as a}from"./chunk-CVJKAN5R.js";import{f as C,m as s,o as i}from"./chunk-6V2G2Z5W.js";s();i();var L={container:"_container_x0i5m_1",title:"_title_x0i5m_1",tip:"_tip_x0i5m_9",subTitle:"_subTitle_x0i5m_10"};s();i();var f=C(N());R();var P=(r,m)=>{var _;let E=g(),u=m!=null?m:E,A=B(u),c=p(()=>A.find(n=>n.coinId===(r==null?void 0:r.coinId)),[A,r==null?void 0:r.coinId]),d=(_=c==null?void 0:c.childrenCoin)!=null?_:[],o=h(a,u),l=x(a,u);return p(()=>{if(!r||!y(r)||!Array.isArray(d)||!Array.isArray(o)||!o.length)return[];let n=d.filter(t=>t.coinId===+r.coinId).map(t=>({...t})),I=[],e=(0,f.cloneDeep)(n[0]||r),W=n.map(t=>l[t.addressType]);return o.forEach(({address:t,addressType:b})=>{W.includes(t)||(e.address=t,e.addressType=T[a][b],e.coinAmount=0,e.coinAmountInt=0,e.currencyAmount=0,I.push((0,f.cloneDeep)(e)))}),n.concat(I).filter(t=>Boolean(l[t.addressType]))},[r,d,o,l])};export{L as a,P as b};
+
+window.inOKXExtension = true;
+window.ASSETS_BUILD_TYPE = "publish";
+
+//# sourceMappingURL=chunk-B7I5GB3L.js.map

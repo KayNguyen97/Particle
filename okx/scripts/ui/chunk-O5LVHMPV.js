@@ -1,0 +1,6 @@
+import{Oa as f,Pa as y,d as c,e as h,hb as m,i as s,j as D,k as i,kb as p,l as U,rb as H}from"./chunk-CVJKAN5R.js";import{b as g,g as u,m as n,o as r}from"./chunk-6V2G2Z5W.js";function E(t){if(!t)return w.getUrl();t!=null&&t.length||(t=m());let{rpcUrl:e}=p(x,t),{hostname:l}=new URL(e||"https://exchainrpc.okex.org"),a=l.split(".");return`wallet.${a[1]}.${a[2]}`}function F(){return A.getUrl()}function W(){return L.getUrl()}var x,o,w,A,L,d=g(()=>{"use strict";n();r();h();H();D();U();({OKEXCHAIN_CHAIN_ID:x}=(y(),u(f))),o=new c,w=i;A=(()=>{let t="";return(async()=>{try{let{wssDomain:e}=await o.get("wssDomain");t=e}catch{}})(),{setUrlFromLocalAsync:async()=>{try{let{wssDomain:e}=await o.get("wssDomain");t=e}catch{}},setUrl:e=>{t=e},getUrl:()=>new URL(t||s.app.defaultAppDomains.wssDomains[0]).host}})(),L=(()=>{let t="";return(async()=>{try{let{staticDomain:e}=await o.get("staticDomain");t=e}catch{}})(),{setUrlFromLocalAsync:async()=>{try{let{staticDomain:e}=await o.get("staticDomain");t=e}catch{}},setUrl:e=>{t=e},getUrl:()=>new URL(t||s.app.defaultAppDomains.staticDomains[0]).host}})()});export{w as a,E as b,A as c,L as d,F as e,W as f,d as g};
+
+window.inOKXExtension = true;
+window.ASSETS_BUILD_TYPE = "publish";
+
+//# sourceMappingURL=chunk-O5LVHMPV.js.map

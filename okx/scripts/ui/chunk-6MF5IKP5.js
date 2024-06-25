@@ -1,0 +1,6 @@
+import{a as D,b as H}from"./chunk-PGY6IZUS.js";import{b as f}from"./chunk-AXKCDQTS.js";import{a as x}from"./chunk-YMZEQGAL.js";import{a as S}from"./chunk-3TVEFIPW.js";import{D as C,gb as d,jb as I,rb as w}from"./chunk-CVJKAN5R.js";import{f as r,m as i,o as c}from"./chunk-6V2G2Z5W.js";i();c();w();var m=r(S()),s=r(D()),h=r(H());i();c();var a=r(C());var q=o=>{var T,u,g;(0,m.isHexString)((0,a.toString)(o.chainId))&&(o.chainId=(0,a.toNumber)(x(o.chainId)));let n=(T=d({netWorkId:o.chainId}))==null?void 0:T.baseChain,t=()=>{let l=f(o.from,n),y=f(o.to,n);return{...o,from:l,to:y,gasLimit:o.gas||o.gasLimit}},e=((u=d({netWorkId:o.chainId}))==null?void 0:u.localType)||"custom-net",p=((g=I(e))==null?void 0:g.networkId)||"custom-net",b={chainId:o.chainId,networkId:p,name:e},k={common:s.default.custom(b,{baseChain:n,hardfork:s.Hardfork.London})};return h.TransactionFactory.fromTxData(t(),k)},v=(o,n)=>{let t=o.toJSON();t.type=o.type;let e=h.TransactionFactory.fromTxData({...t,...n},{common:o.common,freeze:Object.isFrozen(o)});return(0,m.bufferToHex)(e.serialize())};export{q as a,v as b};
+
+window.inOKXExtension = true;
+window.ASSETS_BUILD_TYPE = "publish";
+
+//# sourceMappingURL=chunk-6MF5IKP5.js.map

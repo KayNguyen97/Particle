@@ -1,0 +1,6 @@
+import{a}from"./chunk-AHAXQBXQ.js";import{a as _}from"./chunk-JSAFBAMQ.js";import{C as u,v as s}from"./chunk-CVJKAN5R.js";import{c as v}from"./chunk-C2H3SRET.js";import{a as c}from"./chunk-V4YVDLI4.js";import{f as i,m as o,o as e}from"./chunk-6V2G2Z5W.js";o();e();var t=i(c()),m=i(v());u();o();e();var r={root:"_root_l036t_1",container:"_container_l036t_5",title:"_title_l036t_11",desc:"_desc_l036t_19",link:"_link_l036t_26",form:"_form_l036t_36",inputError:"_inputError_l036t_41",input:"_input_l036t_41"};function k({className:n,title:d,desc:f,children:p}){let l=a();return t.default.createElement("div",{className:(0,m.default)(r.root,n)},t.default.createElement(_,{bordered:!1,closeable:!1}),t.default.createElement("div",{className:r.container},t.default.createElement("h1",{className:r.title},d),t.default.createElement("div",{className:r.desc},f,t.default.createElement("div",null,t.default.createElement("a",{target:"__blank",href:l==null?void 0:l.forgetPwd,className:r.link},s("wallet_set_password_header_link_learn_more")))),p({formClass:r.form,formErrorClass:r.inputError,itemClass:r.input})))}var L=k;export{L as a};
+
+window.inOKXExtension = true;
+window.ASSETS_BUILD_TYPE = "publish";
+
+//# sourceMappingURL=chunk-ALCVBZDB.js.map

@@ -1,0 +1,6 @@
+import{a as R}from"./chunk-2SGW2RXR.js";import{c as o,d as s}from"./chunk-VCWU5FEX.js";import{i as A,n as L}from"./chunk-62JDSRZZ.js";import{h as S}from"./chunk-RMQJRDTF.js";import{o as C}from"./chunk-GXQ645QR.js";import{a as T}from"./chunk-V4YVDLI4.js";import{f as m,m as c,o as n}from"./chunk-6V2G2Z5W.js";c();n();c();n();var u=m(T());var V=({keyringId:i="",actionMap:t})=>{let E=L(i),{accountStatus:r,mpcStatus:e}=(E==null?void 0:E.status)||{},W=(0,u.useMemo)(()=>r===o.FROZEN||r===o.DELETE||e===s.ESCAPE||e===s.RECOVER,[r,e]),_=(0,u.useMemo)(()=>{let p,a;switch(!0){case e===s.RECOVER:p=t["RECOVER"],a=t["SWITCH_WALLET"];break;case e===s.ESCAPE:case r===o.FROZEN:case r===o.DELETE:p=t["SWITCH_WALLET"];break;default:break}return R({accountStatus:r,mpcStatus:e},{onConfirm:p,onCancel:a})},[r,t,e]);return u.default.createElement(C.Prompt,{visible:W,..._})};c();n();var M=m(T()),Z=i=>{let t=A(i),E=(0,M.useMemo)(()=>{let{accountStatus:r,mpcStatus:e}=(t==null?void 0:t.status)||{accountStatus:o.NORMAL,mpcStatus:s.INIT};switch(!0){case e===s.RECOVER:case e===s.ESCAPE:case r===o.FROZEN:case r===o.DELETE:return!1;default:return!0}},[t]);return(t==null?void 0:t.keyringIdentityType)!==S.MPC||E};export{V as a,Z as b};
+
+window.inOKXExtension = true;
+window.ASSETS_BUILD_TYPE = "publish";
+
+//# sourceMappingURL=chunk-CPWFRAFM.js.map
